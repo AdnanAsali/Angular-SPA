@@ -1,0 +1,11 @@
+<table>
+    <tbody>
+        <tr *ngFor="let userRow of usersTable.data">
+            <td>{{userRow.id}}</td>
+            <td><img src="{{userRow.avatar}}"></td>
+            <td>{{userRow.first_name}}</td>
+            <td>{{userRow.last_name}}</td>
+            <td>{{userRow.email}}</td>
+        </tr>
+    </tbody>
+</table>

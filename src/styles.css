@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.list
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%/2);
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.list-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: cornflowerblue;
+    margin: 50px;
+}
+
+table
+{
+    margin: 0 auto;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+td
+{
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 50px;
+}
+
+.welcome
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.navbar 
+{
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.navbar a 
+{
+    text-decoration: none;
+    color: black !important;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.navbar a:hover
+{
+    color: peru !important;
+    transition: 500ms;
+}
